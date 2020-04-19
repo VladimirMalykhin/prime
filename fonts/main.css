@@ -1,0 +1,411 @@
+@font-face {
+  font-family: 'Akrobat-Black';
+  /* Имя шрифта */
+  src: url(../fonts/FuturaFuturisC.otf);
+  /* Путь к файлу со шрифтом */
+}
+@font-face {
+  font-family: 'Reef';
+  /* Имя шрифта */
+  src: url(../fonts/FuturaFuturisC-Bold.otf);
+  /* Путь к файлу со шрифтом */
+}
+@font-face {
+  font-family: 'Akrobat-Bold';
+  /* Имя шрифта */
+  src: url(../fonts/FuturaFuturisC-BoldItalic.otf);
+  /* Путь к файлу со шрифтом */
+}
+@font-face {
+  font-family: 'Akrobat-ExtraBold';
+  /* Имя шрифта */
+  src: url(../fonts/FuturaFuturisC-Italic.otf);
+  /* Путь к файлу со шрифтом */
+}
+@font-face {
+  font-family: 'Helvetica';
+  /* Имя шрифта */
+  src: url(../fonts/Helvetica.dfont);
+  /* Путь к файлу со шрифтом */
+}
+@font-face {
+  font-family: 'slick';
+  /* Имя шрифта */
+  src: url(../fonts/slick.ttf);
+  /* Путь к файлу со шрифтом */
+}
+img {
+  width: 100%;
+}
+#main-banner {
+  min-height: 1000px;
+  position: relative;
+  background-image: url(../img/back1.png);
+  width: 100%;
+  background-position: center;
+  padding-bottom: 100px;
+}
+#main-banner .header {
+  margin-top: 20px;
+}
+#main-banner .header .big-text-banner {
+  font-size: 35px;
+  font-family: 'FuturaFuturisC';
+  color: white;
+}
+#main-banner .header p {
+  line-height: 45px;
+  font-size: 2.5em;
+  font-family: 'FuturaFuturisC';
+  color: white;
+}
+#main-banner .banner-banka {
+  margin-top: 230px;
+  background-position: center;
+  background-image: url("../img/back-per.png");
+  background-repeat: no-repeat;
+}
+#main-banner .banner-banka img {
+  width: 90%;
+}
+#main-banner .banner-banka .banka-block {
+  margin-top: -130px;
+  margin-left: 90px;
+}
+#main-banner .banner-banka .girl-banner {
+  margin-top: -130px;
+}
+#main-banner .banner-banka .girl-banner img {
+  width: 100%;
+}
+#main-banner .about-head {
+  margin-top: -23px;
+  background-image: url("../img/ab.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#main-banner .about-head h3 {
+  color: white;
+  font-family: 'Helvetica';
+  font-size: 2em;
+  margin-bottom: 15px;
+}
+#main-banner .video {
+  margin-top: -5px;
+}
+#main-banner .video video {
+  border: 3px solid white;
+  width: 100%;
+}
+#main-banner .video-button {
+  margin-top: 40px;
+  padding-top: 10px;
+  height: 40px;
+  border: 3px solid white;
+  background-color: rgba(0, 0, 0, 0.42);
+}
+#main-banner .video-button a {
+  color: white;
+}
+#main-banner:after {
+  content: "";
+  position: absolute;
+  display: block;
+  height: 10px;
+  width: 100%;
+  background: url(../img/after.png) repeat-x;
+  left: 0;
+  bottom: -10px;
+  z-index: 11;
+}
+#pravila {
+  min-height: 1000px;
+  padding-top: 50px ;
+  padding-bottom: 50px ;
+  position: relative;
+  background-image: url("../img/back2.jpg");
+  width: 100%;
+  background-position: center;
+}
+#pravila .one-prav {
+  min-height: 345px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center right;
+  background-image: url("../img/1prav.png");
+}
+#pravila .one-prav .text-one {
+  margin-top: 90px;
+}
+#pravila .one-prav .text-one h3 {
+  font-size: 24px;
+  color: red;
+  font-family: "Helvetica";
+}
+#pravila .one-prav .text-one p {
+  font-size: 16px;
+  font-family: 'Helvetica';
+}
+#pravila .two-prav {
+  min-height: 345px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center left;
+  background-image: url("../img/2prav.png");
+}
+#pravila .two-prav .text-two {
+  margin-top: 90px;
+}
+#pravila .two-prav .text-two h3 {
+  font-size: 24px;
+  color: red;
+  font-family: "Helvetica";
+}
+#pravila .two-prav .text-two p {
+  font-size: 16px;
+  font-family: 'Helvetica';
+}
+#pravila .three-prav {
+  min-height: 345px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center right;
+  background-image: url("../img/3prav.png");
+}
+#pravila .three-prav .text-three {
+  margin-top: 90px;
+}
+#pravila .three-prav .text-three h3 {
+  font-size: 24px;
+  color: red;
+  font-family: "Helvetica";
+}
+#pravila .three-prav .text-three p {
+  font-size: 16px;
+  font-family: 'Helvetica';
+}
+#pravila:after {
+  content: "";
+  position: absolute;
+  display: block;
+  height: 10px;
+  width: 100%;
+  background: url(../img/after.png) repeat-x;
+  left: 0;
+  bottom: 0px;
+  z-index: 11;
+}
+#prizi {
+  min-height: 1000px;
+  padding-top: 100px ;
+  padding-bottom: 100px ;
+  position: relative;
+  background-image: url("../img/back1.png");
+  width: 100%;
+  background-position: center;
+}
+#prizi p {
+  font-size: 20px;
+  font-family: 'Helvetica';
+  color: white;
+}
+#prizi .one-priz img {
+  margin-left: -84px;
+  width: 150%;
+}
+#prizi .slider {
+  margin-top: 50px;
+}
+#prizi .slider .slick-next {
+  border-radius: 50%;
+}
+#prizi .slider .slick-prev,
+#prizi .slider .slick-next {
+  font-size: 0;
+  line-height: 0;
+  position: absolute;
+  top: 50%;
+  display: block;
+  padding: 0;
+}
+#prizi .slider .slick-prev,
+#prizi .slider .slick-arrow {
+  font-size: 0;
+  line-height: 0;
+  position: absolute;
+  top: 50%;
+  display: block;
+  padding: 0;
+}
+#prizi .slider .slick-prev {
+  left: 5px;
+  z-index: 4;
+}
+#prizi .slider .slick-arrow {
+  right: 7px;
+}
+.slick-prev:before,
+.slick-next:before {
+  font-family: "slick";
+  font-size: 25px!important;
+  line-height: 1;
+  color: black!important;
+  opacity: 0.75;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+#schetchik {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  width: 100%;
+  min-height: 530px;
+  background-position: center;
+  background-image: url("../img/backschet.jpg");
+  background-size: cover;
+}
+#schetchik .zagruzheno {
+  font-size: 25px;
+  color: white;
+  background: url(../img/work-down.png);
+  min-height: 100px;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 25px 0px 0px 10px;
+}
+#schetchik .back-num {
+  width: 100%;
+  min-height: 436px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("../img/numback.png");
+}
+#schetchik .back-num h1 span {
+  font-size: 200px;
+  min-width: 144px;
+  min-height: 300px;
+  display: inline-block;
+  margin-left: 30px;
+  background-repeat: no-repeat;
+  background-image: url(../img/num.png);
+  font-family: 'Helvetica';
+  color: white;
+  padding-top: 12px;
+}
+#footer .social {
+  padding: 50px 0px 50px 0px;
+}
+#footer .footer {
+  padding-top: 20px;
+  color: white;
+  min-height: 50px;
+  width: 100%;
+  background-color: #307042;
+}
+@media (max-width: 1100px) {
+  .banner-banka img {
+    width: 90%;
+  }
+  .banner-banka .banka-block {
+    margin-left: 0px!important;
+  }
+  .banner-banka .girl-banner img {
+    width: 90%;
+  }
+  .one-priz img {
+    margin-right: -85px;
+    width: 150%;
+  }
+}
+@media (max-width: 760px) {
+  .text-three {
+    margin-top: 49px!important;
+  }
+  .text-one {
+    margin-top: 49px!important;
+  }
+  .text-two {
+    margin-top: 35px!important;
+  }
+  .two-prav {
+    min-height: 176px!important;
+  }
+  .one-prav {
+    min-height: 176px!important;
+  }
+  .three-prav {
+    min-height: 176px!important;
+  }
+  .banner-banka {
+    margin-top: 230px;
+    background-position: center;
+    background-image: url("../img/back-per.png");
+    background-repeat: no-repeat;
+  }
+  .banner-banka img {
+    width: 60%!important;
+  }
+  .banner-banka .girl-banner {
+    padding: 0;
+  }
+  .banner-banka .girl-banner img {
+    width: 104%!important;
+  }
+  .one-priz img {
+    margin-left: 0px!important;
+    margin-right: 0px!important;
+    width: 100%!important;
+  }
+}
+@media (max-width: 460px) {
+  #schetchik .back-num h1 span {
+    font-size: 100px!important;
+  }
+  #pravila {
+    min-height: 650px;
+    padding-top: 50px ;
+    padding-bottom: 50px ;
+    position: relative;
+    background-image: url("../img/backblack.png");
+  }
+  .back-num {
+    width: 100%;
+    min-height: 436px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("../img/numback.png");
+  }
+  .back-num h1 span {
+    min-width: 80px!important;
+    min-height: 300px;
+    display: inline-block;
+    margin-left: 30px;
+    background-repeat: no-repeat;
+    background-image: url("../img/back-num-phone.png") !important;
+  }
+  #main-banner {
+    min-height: 400px;
+    position: relative;
+    background-image: url("../img/back-mini.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 110vh;
+    width: 100%;
+    background-position: center;
+  }
+  #main-banner .video {
+    margin-top: 30px;
+  }
+  .about-head {
+    height: 45px;
+    background-image: url("../img/about-mini.png") !important;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .about-head h3 {
+    color: white;
+    font-family: 'Helvetica';
+    font-size: 1.5em!important;
+    margin-bottom: 15px;
+    padding-top: 13px;
+  }
+}
